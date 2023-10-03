@@ -1,0 +1,14 @@
+Q1) https://github.com/dhavalbhatia/cmput404-django
+Q2) There is a default Django interface confirming the installation worked
+Q3) 404 Page Not Found when navigating to /
+    When navigating to /polls it shows us the text from HttpResponse
+Q4) A Django migration essentially handles changes in database schema, it produces a Python
+    script that can handle changes required in the database while maintaining existing data.
+Q5) It is a dashboard. We can see and add models like choices, and questions under the Polls section.
+    We also need to register these mmodels in the admin.py
+Q6) This displays that this is question 38, then shows results and votes for the same.
+    If we want to allow for alphanumeric characters, we can modify the url in urls.py and use regex to 
+    allow for alphanumeric characters.
+Q7) It is a bad idea to hardcode URL's in the template because any minor alterations need to be changed
+Q8) The benefits of using generic views include not having to write a lot of code. 
+    Custom views allow for more custom functionality
